@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "blog"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "blocks"
+    },
+    "author": {
+      "type": "string"
+    },
+    "dateCreated": {
+      "type": "date"
+    }
+  }
+}
